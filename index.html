@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>verificador de Número</title>
+	<link rel="stylesheet" type="text/css" href="style/w3.css">
+</head>
+<body>
+<div class="w3-bar w3-teal">
+	<a href="https://uvv.br" class="w3-bar-item w3-button" >
+		<img src="imgs/uvv.png" style="width: 50px;">
+	</a>
+	<a href="https://jovemnerd.com.br/nerdcast/" class="w3-bar-item w3-button">NerdCast</a>
+	<a href="https://rpgnext.com.br" class="w3-bar-item w3-button">RPG</a>
+</div>
+<div class="w3-container w3-teal">
+	<h2>Verificação e geração de CPF's</h2>
+</div>
+<form class="w3-container w3-card-4" method="LINK"><br>
+	<label class="w3-text-grey">Verifique a validade de seu CPF</label>
+	<div id="divalue"></div>
+	<input type="number" placeholder="Ex.: 000.000.000-00" name="cpf" class="w3-input" autocomplete="off">
+	<br>
+	<INPUT class="w3-btn w3-padding w3-teal" TYPE="submit" VALUE="Send >">
+</form>
+<br>
+<div class="w3-container w3-card-4">
+	<button class="w3-btn" onclick="criarCpf()">Gerar CPF ></button>
+	<label id="divgen"></label>
+</div>
+<br><br>
+<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
